@@ -1,0 +1,14 @@
+services:
+  chatgpt-minimal:
+    image: docker.io/jblume/chatgpt-minimal-dora
+    ports:
+      - "3000:3000"
+    environment:
+      OPENAI_API_KEY:
+      OPENAI_API_BASE_URL: "http://api:9000"
+
+  api:
+    build: .
+    env_file: ".env"
+    volumes:
+      - ./data:/root/data
