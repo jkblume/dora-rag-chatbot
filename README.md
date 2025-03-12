@@ -1,6 +1,6 @@
 # DORA RAG Chatbot
 
-Dieses Repository ist ein Wrapper, um die OpenAI Chat Completion API. Eingehende Nachrichten
-werden um relevante Informationen aus der DORA Spezifikation ergänzt und an die OpenAI API gesendet.
+This repository is a wrapper for the OpenAI Chat Completion API. Incoming messages are supplemented with relevant 
+information from the DORA specification and sent to the OpenAI API.
 
 ![Architecture](./docs/architecture.png)
